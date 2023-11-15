@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+.popup-content {
+max-height: 500px; /* Set a maximum height for the entire popup content */
+overflow-y: auto; /* Add a vertical scrollbar when content exceeds the height */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    height: 150px; /* Set a fixed height for the table */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#logo {
+    position: absolute;
+    background-color: #f2f2f2;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure the logo is above the map */
+}
+
+#logo img {
+    max-width: 80px; /* Adjust the max-width as needed */
+}
